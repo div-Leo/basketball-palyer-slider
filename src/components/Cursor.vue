@@ -109,8 +109,8 @@
   .cursor__dot {
     position: fixed;
     cursor: none;
-    top: 1px;
-    left: 1px;
+    top: 0;
+    left: 0;
     width: 5px;
     height: 5px;
     border-radius: 50%;

@@ -136,7 +136,7 @@
   .slide__player-name--border {
     z-index: 3;
     color: transparent;
-    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fff;
     -webkit-font-smoothing: antialiased;
   }
