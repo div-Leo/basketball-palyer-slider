@@ -1,0 +1,28 @@
+$base-url: '../fonts/';
+
+@font-face {
+  font-family: 'Saol Display';
+  src: url('#{$base-url}SaolDisplay-Bold.woff2') format('woff2'),
+    url('#{$base-url}SaolDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('#{$base-url}Gilroy-Bold.woff2') format('woff2'),
+    url('#{$base-url}Gilroy-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('#{$base-url}Gilroy-Light.woff2') format('woff2'),
+    url('#{$base-url}Gilroy-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

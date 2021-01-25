@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 56.6 56.4">
+  <circle class="cursor__dot" cx="28.3" cy="28.2" r="2.2" fill="#CE1141" />
+  <circle class="cursor__circle" cx="28.3" cy="28.2" r="27.5" fill="none" stroke="#3C3C3C" />
+  <circle class="cursor__progress" cx="28.3" cy="28.2" r="27.5" fill="none" stroke="#CE1141" />
+</svg>
