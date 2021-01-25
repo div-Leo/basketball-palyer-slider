@@ -32,12 +32,8 @@
 
 <script>
   import { gsap } from "gsap";
-  // import { Fragment } from 'vue-fragment';
 
   export default {
-    components: {
-      // Fragment
-    },
     methods: {
       enterText(el, done) {
         gsap.from(el.childNodes, {
@@ -93,12 +89,10 @@
       },
     }, 
     mounted() {
-      console.log('////HERE////');
       this.animateOnLoad()
     },
     computed: {
       playerImage () {
-        console.log('this.image', this.image);
         return require(`../assets/img/${this.image}`);
       },
     },
