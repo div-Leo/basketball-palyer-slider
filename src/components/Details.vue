@@ -29,7 +29,7 @@
 </template>
 
 <script> 
-  import { gsap, TweenLite } from "gsap";
+  import { gsap } from "gsap";
 
   export default {
     props: {
@@ -53,24 +53,19 @@
           duration:.4,
           stagger: 0.1
         });
+      },
+      animateOnLoad () {
+        const { details } = this.$refs;
+        gsap.from(details.childNodes, {
+          autoAlpha:0, 
+          x:'20', 
+          duration:.6,
+          stagger: 0.1
+        });
       }
     },
     mounted() {
-      const { details } = this.$refs;
-
-      let delay = 0;
-      details.childNodes.forEach(el => {
-        TweenLite.from(el, {
-          autoAlpha:0, 
-          x:'20', 
-          duration: .6,
-          delay: delay+=.07
-        });
-      })
-
-      setInterval(() => {
-        this.nextSlide();
-      }, 10000);
+      this.animateOnLoad()
     },
   }
 </script>
