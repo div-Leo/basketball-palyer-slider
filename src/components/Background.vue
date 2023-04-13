@@ -13,7 +13,7 @@
             height: 0,
             duration: 1,
             delay: .3,
-            ease: 'power3.easeOut',
+            ease: 'power3.out',
           },
         );
       },

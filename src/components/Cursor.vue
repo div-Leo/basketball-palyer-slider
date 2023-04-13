@@ -116,7 +116,7 @@
     border-radius: 50%;
     background: var(--accent);
     transform: translate(-100%, -100%);
-    transition: transform 0.3s $ease;
+    /* transition: transform 0.3s $ease; */
   }
   .cursor__progress {
     height:100%;
